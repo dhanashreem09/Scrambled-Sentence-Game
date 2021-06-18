@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Scrambled Word Game</title>
+    <head>
+      <script  src="./script.js"></script>
+    <meta charset="utf-8">
+    <title>Scrambled Words by English Bolega</title>
+    </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<style>
+    #start{
+    background-color: rgb(24, 162, 167);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 20px;
+    color: azure;
+}
+h2{
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    width: 12em;
+    height: 3em;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+  }
+  #play-btn {
+    background: #fff;
+    border: 2px solid #e18a07;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+  }
+  
+  #submit:hover,
+  #play-btn:hover {
+    background: #e18a07;
+    color: #fff;
+    transition: 0.2s;
+  }
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+
+</style>
+</head>
+<body>
+<body style="background-image: url('game1.jpeg');">
+    <div id="start">
+      <h2>*** Unscramble the words ***
+      <br><br>Get three correct and level up.
+      <br>Get a word wrong three times and restart.
+      <br>Finish level 8 and you win.
+      <br>Good luck!
+      </h2>
+      <br>
+      <a href="play.html"><button id="play-btn">Let's Play</button></a>
+    </div>
+</body>
+</html>
